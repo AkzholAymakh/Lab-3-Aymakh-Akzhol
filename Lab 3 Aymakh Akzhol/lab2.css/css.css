@@ -1,0 +1,96 @@
+body{
+  background:url(../the.jpg);
+  background-repeat: 2000px;
+  background-size: 2100px;
+  display: grid;
+  place-items: center;
+}
+ p{
+    color:white;
+    margin-left: 20px;
+}
+h1{
+    cursor: help;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    border-bottom: 3px solid #161516;
+    color:black;
+}
+figcaption{
+    color: aliceblue;
+}
+div{
+    align-content: center;
+    color: black;
+}
+body{
+    font-family: Tahoma;
+}
+.page-1 {
+    align-content: center;
+    background-color:rgba(127, 255, 212, 0.725);
+    margin: 0 auto;
+    width: 800px;
+    height: 1100px;
+    padding: 20px;
+    box-shadow: 2px 2px 5px rgba(0,0,0.82);
+    transform: translate3d(0,0,0);
+}
+.group{
+    margin: 10px;
+    padding: 5px;
+}
+label {
+    text-align: center;
+    padding-left: 10px;
+    text-transform: uppercase;
+}
+input{
+    align-content: center;
+    text-align: center;
+    margin-top: 10px;
+    height: 40px;
+    width: 100%;
+
+}
+input:focus {
+    outline-offset: 1px;
+}
+
+button{
+    cursor: pointer;
+    padding: 10px 30px;
+    height: 50px;
+    color:#fff;
+    background-color:black; 
+    border: none;
+    text-transform: uppercase;
+    transition: 0.8s;
+}
+button:hover {
+    opacity: .80;
+    font-weight: bold;
+    transform: scale(1.1);
+}
+
+.but {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+label,
+input,
+button {
+    font-size: 1.5rem;
+    font-family: monospace;
+}
+.page-2 {
+    align-content: center;
+    background-color:rgba(127, 255, 212, 0.725);
+    width: 600px;
+    height: 600px;
+    padding: 20px;
+    box-shadow: 2px 2px 5px rgba(0,0,0.82);
+    transform: translate3d(0,0,0);
+}
+
